@@ -1,0 +1,563 @@
+.mainContainer{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.location{
+    display: flex;
+    /* position: relative; */
+    /* margin-right: 425px; */
+    margin-right: 200px;
+    border-bottom: 0.4px solid #B8B8B8
+}
+
+.locationText{
+    margin-top: 56px;
+    margin-left: 4px;
+    width: 77px;
+  height: 18px;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18.2px;
+}
+
+.locationIcon{
+    margin-left: 4px;
+    /* position: absolute; */
+    width: 18px;
+    height: 18px;
+    /* margin-right: 425px; */
+    margin-top: 56px;
+}
+
+.pencilIcon{
+    width: 20px;
+    height: 20px;
+    margin-left: 124px;
+    margin-top: 55px;
+}
+
+.belowLocation{
+    margin-top: 32px;
+    width: 243px;
+  height: 32px;
+  
+}
+
+.container{
+    position: relative;
+        width: 692px;
+        height: 1751px;
+        /* top: 628px;
+        left: 200px; */
+      /* background-color: aqua; */
+      background-color: white;
+      margin-left: 200px;
+      margin-top: 48px;
+}
+
+.coverPhoto{
+    position: absolute;
+    width: 692px;
+    height: 220px;
+    top: 0;
+  left: 13px;
+  width: 100%;
+  
+    border-radius: 4px 4px 0px 0px;
+    background: url("img/coverBottom.jpg");
+    background-size: cover;
+     /* background-position: center;   */
+  background-repeat: no-repeat;
+}
+
+.articlePhoto{
+    margin-top: 232px;
+    margin-left: 20px;
+
+   
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 23.4px;
+      
+      
+}
+
+.first_header{
+    
+        width: 600px;
+        height: 60px;
+       margin-top: 10px;
+       margin-left: 20px;
+       color: #000000;
+   
+      
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-weight: 600;
+        font-size: 22px;
+        line-height: 29.52px;
+      
+      
+}
+
+.dots{
+   
+        width: 28px;
+        height: 28px;
+       margin-top: 11px;
+    
+      
+}
+
+.second_header{
+    width: 652px;
+  height: 25px;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 25.49px;
+  margin-top: 12px;
+  margin-left: 20px;
+}
+
+.profile{
+    display: flex;
+    position: relative;
+    /* margin-bottom: 16px; */
+}
+
+.profilePic{
+    width: 48px;
+    height: 48px;
+   margin-left: 20px;
+    border-radius: 24px;
+    margin-top: 32px;
+}
+
+.name{
+    width: 128px;
+    height: 24px;
+    font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 23.4px;
+  margin-left: 10px;
+  margin-top: 44px;
+  /* position: absolute; */
+}
+
+.eye{
+    width: 95px;
+    height: 18px;
+   margin-left: 292px;
+   margin-top: 47px;
+}
+
+.share{
+    width: 42px;
+  height: 36px;
+  margin-left: 40px;
+  margin-top: 38px;
+  border-radius: 2px;
+}
+
+.firstContainer{
+   
+        width: 692px;
+        height: 472px;
+        
+        border-radius: 4px;
+        border: 1px solid #E0E0E0
+}
+
+/* Second section */
+.second_coverPhoto{
+    position: absolute;
+    width: 692px;
+    height: 220px;
+    top: 16;
+  left: 13px;
+  width: 100%;
+  
+    border-radius: 4px 4px 0px 0px;
+    background: url("img/secondCover.jpg");
+    background-size: cover;
+     background-position: center;  
+  background-repeat: no-repeat;
+}
+
+.second_articlePhoto{
+    margin-top: 232px;
+    margin-left: 20px;
+
+   
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 23.4px;
+      
+      
+}
+
+.second_first_header{
+    
+        width: 600px;
+        height: 60px;
+       margin-top: 10px;
+       margin-left: 20px;
+       color: #000000;
+   
+      
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-weight: 600;
+        font-size: 22px;
+        line-height: 29.52px;
+      
+      
+}
+
+.second_dots{
+   
+        width: 28px;
+        height: 28px;
+       margin-top: 11px;
+    
+      
+}
+
+.second_second_header{
+    width: 652px;
+  height: 25px;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 25.49px;
+  margin-top: 12px;
+  margin-left: 20px;
+}
+
+.second_profile{
+    display: flex;
+    position: relative;
+    /* margin-bottom: 16px; */
+}
+
+.second_profilePic{
+    width: 48px;
+    height: 48px;
+   margin-left: 20px;
+    border-radius: 24px;
+    margin-top: 32px;
+}
+
+.second_name{
+    width: 128px;
+    height: 24px;
+    font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 23.4px;
+  margin-left: 10px;
+  margin-top: 44px;
+  /* position: absolute; */
+}
+
+.second_eye{
+    width: 95px;
+    height: 18px;
+   margin-left: 292px;
+   margin-top: 47px;
+}
+
+.second_share{
+    width: 42px;
+  height: 36px;
+  margin-left: 40px;
+  margin-top: 38px;
+  border-radius: 2px;
+}
+
+.secondContainer{
+   
+        width: 692px;
+        height: 472px;
+        margin-top: 16px;
+        border-radius: 4px;
+        border: 1px solid #E0E0E0
+}
+
+
+
+/* Third section */
+.third_coverPhoto{
+    position: absolute;
+    width: 692px;
+    height: 220px;
+    top: 30;
+  left: 13px;
+  width: 100%;
+  
+    border-radius: 4px 4px 0px 0px;
+    background: url("img/thirdCover.jpg");
+    background-size: cover;
+     background-position: center;  
+  background-repeat: no-repeat;
+}
+
+.third_articlePhoto{
+    margin-top: 232px;
+    margin-left: 20px;
+
+   
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 23.4px;
+      
+      
+}
+
+.third_first_header{
+    
+        width: 600px;
+        height: 29px;
+       margin-top: 10px;
+       margin-left: 20px;
+       color: #000000;
+   
+      
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-weight: 600;
+        font-size: 22px;
+        line-height: 29.52px;
+      
+      
+}
+
+.third_dots{
+   
+        width: 28px;
+        height: 28px;
+       margin-top: 11px;
+    
+      
+}
+
+.third_second_header{
+    width: 358px;
+  height: 20px;
+  margin-top: 12px;
+  /* top: 1920px;
+  left: 220px; */
+  background: url("img/locationDate.png");
+  margin-top: 12px;
+  margin-left: 20px;
+}
+
+.visitWebsite{
+    width: 652px;
+  height: 38px;
+  background: url("img/visitWebsite.png");
+  margin-top: 16px;
+  /* top: 1956px;
+  left: 220px; */
+  border-radius: 8px;
+  border: 0.7px solid #A9AEB8;
+}
+
+.third_profile{
+    display: flex;
+    position: relative;
+    /* margin-top: 16px; */
+}
+
+.third_profilePic{
+    width: 48px;
+    height: 48px;
+   margin-left: 20px;
+    border-radius: 24px;
+    margin-top: 32px;
+}
+
+.third_name{
+    width: 128px;
+    height: 24px;
+    font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 23.4px;
+  margin-left: 10px;
+  margin-top: 44px;
+  /* position: absolute; */
+}
+
+.third_eye{
+    width: 95px;
+    height: 18px;
+   margin-left: 292px;
+   margin-top: 47px;
+}
+
+.third_share{
+    width: 42px;
+  height: 36px;
+  margin-left: 40px;
+  margin-top: 38px;
+  border-radius: 2px;
+}
+
+.thirdContainer{
+   
+        width: 692px;
+        height: 490px;
+        margin-top: 16px;
+        border-radius: 4px;
+        border: 1px solid #E0E0E0
+}
+
+
+
+/* Fourth section */
+/* .fourth_coverPhoto{
+    position: absolute;
+    width: 692px;
+    height: 220px;
+    top: 30;
+  left: 13px;
+  width: 100%;
+  
+    border-radius: 4px 4px 0px 0px;
+    
+    background-size: cover;
+     background-position: center;  
+  background-repeat: no-repeat;
+} */
+
+.fourth_articlePhoto{
+    margin-top: 20px;
+    margin-left: 20px;
+
+   
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 23.4px;
+      
+      
+}
+
+.fourth_first_header{
+    
+        width: 600px;
+        height: 29px;
+       margin-top: 10px;
+       margin-left: 20px;
+       color: #000000;
+   
+      
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-weight: 600;
+        font-size: 22px;
+        line-height: 29.52px;
+      
+      
+}
+
+.fourth_dots{
+   
+        width: 28px;
+        height: 28px;
+       margin-top: 11px;
+    
+      
+}
+
+.fourth_second_header{
+    width: 358px;
+  height: 20px;
+  margin-top: 12px;
+  /* top: 1920px;
+  left: 220px; */
+  background: url("img/locationDate2.png");
+  margin-top: 12px;
+  margin-left: 20px;
+}
+
+.apply{
+    width: 652px;
+  height: 38px;
+  background: url("img/apply.png");
+  margin-top: 16px;
+  /* top: 1956px;
+  left: 220px; */
+  border-radius: 8px;
+  border: 0.7px solid #A9AEB8;
+}
+
+.fourth_profile{
+    display: flex;
+    position: relative;
+    /* margin-top: 16px; */
+}
+
+.fourth_profilePic{
+    width: 48px;
+    height: 48px;
+   margin-left: 20px;
+    border-radius: 24px;
+    margin-top: 32px;
+}
+
+.fourth_name{
+    width: 128px;
+    height: 24px;
+    font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 23.4px;
+  margin-left: 10px;
+  margin-top: 44px;
+  /* position: absolute; */
+}
+
+.fourth_eye{
+    width: 95px;
+    height: 18px;
+   margin-left: 292px;
+   margin-top: 47px;
+}
+
+.fourth_share{
+    width: 42px;
+  height: 36px;
+  margin-left: 40px;
+  margin-top: 38px;
+  border-radius: 2px;
+}
+
+.fourthContainer{
+   margin-top: 16px;
+    width: 692px;
+    height: 269px;
+    top: 2110px;
+    left: 200px;
+    border-radius: 4px;
+    border: 1px solid #E0E0E0;
+}
+
+@media (max-width: 768px) {
+    .mainContainer {
+        justify-content: center;
+        margin-top: 76px; /* Center-align the containers horizontally */
+    }
+
+    .container {
+        width: 100%; /* Make the container full-width on mobile */
+        margin: 0; /* Remove margins on mobile */
+    }
+
+    /* Adjust other styles for mobile if necessary */
+}

@@ -1,0 +1,6 @@
+body, html {
+    overflow-x: hidden; /* Disable horizontal scroll */
+    overflow-y: auto; /* Enable vertical scroll */
+    margin: 0;
+    padding: 0;
+  }
